@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:id="@id/action_refresh" android:title="@string/gls_action_refresh" />
+    <item android:id="@id/action_first" android:title="@string/gls_action_first" />
+    <item android:id="@id/action_clear" android:title="@string/gls_action_clear" />
+    <item android:id="@id/action_delete_all" android:title="@string/gls_action_delete_all" />
+</menu>

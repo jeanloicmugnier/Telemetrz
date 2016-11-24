@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list>
+    <item android:drawable="@drawable/app_drive" android:maxLevel="0" />
+    <item android:drawable="@drawable/app_file_manager" android:maxLevel="1" />
+    <item android:drawable="@drawable/app_total_commander" android:maxLevel="2" />
+    <item android:drawable="@drawable/app_google_play" android:maxLevel="3" />
+</level-list>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="csc_settings_wheel_diameters">
+        <item>60–622</item>
+        <item>50–622</item>
+        <item>47–622</item>
+        <item>44–622</item>
+        <item>40–635</item>
+        <item>40–622</item>
+        <item>38–622</item>
+        <item>37–622</item>
+        <item>35–622</item>
+        <item>32–630</item>
+        <item>32–622</item>
+        <item>32–622</item>
+        <item>28–622</item>
+        <item>60–559</item>
+        <item>28–622</item>
+        <item>25–622</item>
+        <item>25–622</item>
+        <item>23–622</item>
+        <item>20–622</item>
+        <item>18–622</item>
+        <item>35–630</item>
+        <item>32–630</item>
+        <item>28–630</item>
+        <item>57–559</item>
+        <item>54–559</item>
+        <item>37–590</item>
+        <item>23–622</item>
+        <item>50–559</item>
+        <item>20–622</item>
+        <item>54–559</item>
+        <item>47–559</item>
+        <item>35–590</item>
+        <item>37–590</item>
+        <item>47–559</item>
+        <item>50–559</item>
+        <item>44–559</item>
+        <item>40–559</item>
+        <item>23–571</item>
+        <item>20–571</item>
+        <item>32–559</item>
+        <item>25–571</item>
+        <item>34–540</item>
+        <item>50–507</item>
+        <item>47–507</item>
+        <item>28–451</item>
+        <item>50–406</item>
+        <item>47–406</item>
+        <item>28–369</item>
+        <item>35–349</item>
+        <item>47–305</item>
+    </string-array>
+    <string-array name="csc_settings_wheel_diameter_values">
+        <item>2340</item>
+        <item>2284</item>
+        <item>2268</item>
+        <item>2224</item>
+        <item>2265</item>
+        <item>2224</item>
+        <item>2180</item>
+        <item>2205</item>
+        <item>2168</item>
+        <item>2199</item>
+        <item>2174</item>
+        <item>2155</item>
+        <item>2149</item>
+        <item>2146</item>
+        <item>2136</item>
+        <item>2146</item>
+        <item>2105</item>
+        <item>2133</item>
+        <item>2114</item>
+        <item>2102</item>
+        <item>2169</item>
+        <item>2161</item>
+        <item>2155</item>
+        <item>2133</item>
+        <item>2114</item>
+        <item>2105</item>
+        <item>2097</item>
+        <item>2089</item>
+        <item>2086</item>
+        <item>2114</item>
+        <item>2070</item>
+        <item>2068</item>
+        <item>2105</item>
+        <item>2055</item>
+        <item>2089</item>
+        <item>2051</item>
+        <item>2026</item>
+        <item>1973</item>
+        <item>1954</item>
+        <item>1953</item>
+        <item>1952</item>
+        <item>1948</item>
+        <item>1910</item>
+        <item>1907</item>
+        <item>1618</item>
+        <item>1593</item>
+        <item>1590</item>
+        <item>1325</item>
+        <item>1282</item>
+        <item>1272</item>
+    </string-array>
+    <string-array name="dfu_app_file_browser">
+        <item>Drive</item>
+        <item>File Manager</item>
+        <item>Total Commander</item>
+        <item>Search for others</item>
+    </string-array>
+    <string-array name="dfu_app_file_browser_action">
+        <item>market://details?id=com.google.android.apps.docs</item>
+        <item>market://details?id=com.rhmsoft.fm</item>
+        <item>market://details?id=com.ghisler.android.TotalCommander</item>
+        <item>market://search?q=file manager</item>
+    </string-array>
+    <string-array name="dfu_file_type">
+        <item>Soft Device</item>
+        <item>Bootloader</item>
+        <item>Application</item>
+        <item>Multiple files (ZIP)</item>
+    </string-array>
+    <string-array name="gls_type">
+        <item>Reserved for future use</item>
+        <item>Capillary Whole blood</item>
+        <item>Capillary Plasma</item>
+        <item>Venous Whole blood</item>
+        <item>Venous Plasma</item>
+        <item>Arterial Whole blood</item>
+        <item>Arterial Plasma</item>
+        <item>Undetermined Whole blood</item>
+        <item>Undetermined Plasma</item>
+        <item>Interstitial Fluid (ISF)</item>
+        <item>Control Solution</item>
+    </string-array>
+    <string-array name="gls_location">
+        <item>Reserved for future use</item>
+        <item>Finger</item>
+        <item>Alternate Site Test (AST)</item>
+        <item>Earlobe</item>
+        <item>Control solution</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Sample Location value not available</item>
+    </string-array>
+    <string-array name="gls_status_annunciatioin">
+        <item>Device battery low at time of measurement</item>
+        <item>Sensor malfunction or faulting at time of measurement</item>
+        <item>Sample size for blood or control solution insufficient at time of measurement</item>
+        <item>Strip insertion error</item>
+        <item>Strip type incorrect for device</item>
+        <item>Sensor result higher than the device can process</item>
+        <item>Sensor result lower than the device can process</item>
+        <item>Sensor temperature too high for valid test/result at time of measurement</item>
+        <item>Sensor temperature too low for valid test/result at time of measurement</item>
+        <item>Sensor read interrupted because strip was pulled too soon at time of measurement</item>
+        <item>General device fault has occurred in the sensor</item>
+        <item>Time fault has occurred in the sensor and time may be inaccurate</item>
+    </string-array>
+    <string-array name="gls_context_carbohydrare">
+        <item>Reserved for future use</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+        <item>Drink</item>
+        <item>Supper</item>
+        <item>Brunch</item>
+    </string-array>
+    <string-array name="gls_context_meal">
+        <item>Reserved for future use</item>
+        <item>Preprandial (before meal)</item>
+        <item>Postprandial (after meal)</item>
+        <item>Fasting</item>
+        <item>Casual (snacks, drinks, etc.)</item>
+        <item>Bedtime</item>
+    </string-array>
+    <string-array name="gls_context_tester">
+        <item>Reserved for future use</item>
+        <item>Self</item>
+        <item>Health Care Professional</item>
+        <item>Lab test</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Tester value not available</item>
+    </string-array>
+    <string-array name="gls_context_health">
+        <item>Reserved for future use</item>
+        <item>Minor health issues</item>
+        <item>Major health issues</item>
+        <item>During menses</item>
+        <item>Under stress</item>
+        <item>No health issues</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Health value not available</item>
+    </string-array>
+    <string-array name="hrs_locations">
+        <item>Other</item>
+        <item>Chest</item>
+        <item>Wrist</item>
+        <item>Finger</item>
+        <item>Hand</item>
+        <item>Ear Lobe</item>
+        <item>Foot</item>
+    </string-array>
+</resources>

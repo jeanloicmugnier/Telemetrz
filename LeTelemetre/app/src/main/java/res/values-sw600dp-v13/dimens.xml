@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">24.0dip</dimen>
+    <dimen name="activity_vertical_margin_top">24.0dip</dimen>
+    <dimen name="activity_vertical_margin_bottom">40.0dip</dimen>
+    <dimen name="feature_horizontal_margin">80.0dip</dimen>
+    <dimen name="feature_vertical_margin_top">50.0dip</dimen>
+    <dimen name="bpm_feature_title_long_margin">-115.0dip</dimen>
+    <dimen name="csc_feature_title_long_margin">-192.0dip</dimen>
+    <dimen name="dfu_feature_title_long_margin">-186.0dip</dimen>
+    <dimen name="gls_feature_title_long_margin">-126.0dip</dimen>
+    <dimen name="hrs_feature_title_long_margin">-152.0dip</dimen>
+    <dimen name="hts_feature_title_long_margin">-236.0dip</dimen>
+    <dimen name="rsc_feature_title_long_margin">-192.0dip</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="0x102000a" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="-1" android:layout_height="0dp" android:divider="@zoom/ZOOM_AXIS_XY" android:dividerHeight="0dp" android:layout_weight="1.0" />
+    <TextView android:gravity="11" android:id="0x1020004" android:layout_width="-1" android:layout_height="0dp" android:text="@string/uart_empty" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:enabled="false" android:id="@id/field" android:layout_width="0dp" android:layout_height="-2" android:hint="@string/uart_action_send_hint" android:layout_weight="1.0" android:inputType="20001" android:imeOptions="4" />
+        <Button android:enabled="false" android:id="@id/action_send" android:layout_width="100dp" android:layout_height="-2" android:text="@string/uart_action_send" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#ffffff" android:paddingTop="8dp" android:clickable="true" android:layout_width="290dp" android:layout_height="-1">
+    <ImageView android:padding="16dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/nordic_logo_horiz" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:id="@id/plugin_container" android:layout_width="-1" android:layout_height="-2">
+            <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="10" android:paddingLeft="16dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_plugins" />
+            <View android:background="@drawable/list_divider_holo_light" android:layout_width="-1" android:layout_height="2dp" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010034" android:gravity="10" android:id="@id/link_mcp" android:background="@drawable/item_background_light" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 1010387" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/drawer_plugin_mcp" android:drawableLeft="@drawable/ic_mcp_feature_small" android:drawablePadding="12dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/dfu_settings_dfu">
+        <SwitchPreference android:title="@string/dfu_settings_dfu_packets_receipt_notification_label" android:key="settings_packet_receipt_notification_enabled" android:defaultValue="true" />
+        <EditTextPreference android:title="@string/dfu_settings_dfu_number_of_packets_label" android:key="settings_number_of_packets" android:dependency="settings_packet_receipt_notification_enabled" android:defaultValue="10" android:inputType="2" />
+        <EditTextPreference android:title="@string/dfu_settings_dfu_mbr_size" android:key="settings_mbr_size" android:defaultValue="4096" android:dialogTitle="@string/dfu_settings_dfu_mbr_size_title" android:inputType="2" />
+        <no.nordicsemi.android.nrftoolbox.dfu.settings.AboutDfuPreference android:title="@string/dfu_settings_dfu_about" android:summary="@string/dfu_settings_dfu_about_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

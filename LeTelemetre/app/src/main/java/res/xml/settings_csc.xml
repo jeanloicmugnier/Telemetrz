@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/csc_settings_wheel_diameter">
+        <ListPreference android:entries="@array/csc_settings_wheel_diameters" android:title="@string/csc_settings_wheel_diameter_title" android:key="settings_wheel_size" android:defaultValue="2340" android:entryValues="@array/csc_settings_wheel_diameter_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

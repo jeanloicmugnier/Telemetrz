@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-2" android:layout_height="-2">
+    <TextView android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/dfu_zip_info_text" android:drawableBottom="@drawable/zip" />
+</ScrollView>

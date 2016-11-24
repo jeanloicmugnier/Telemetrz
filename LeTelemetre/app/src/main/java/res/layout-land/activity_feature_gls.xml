@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="32dp" android:textStyle="1" android:textColor="@color/darkGray" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/gls_feature_title_long_margin" android:text="@string/gls_feature_title_long" android:layout_centerVertical="true" android:rotation="270.0" />
+    <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="11" android:id="@id/battery" android:background="@drawable/battery" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/feature_horizontal_margin" android:layout_marginTop="8dp" android:text="@string/not_available" android:freezesText="true" android:layout_alignParentLeft="true" />
+    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:textAppearance="?unknown_attr_ref: 1010040" android:ellipsize="3" android:id="@id/device_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:text="@string/gls_default_name" android:maxLines="1" android:freezesText="true" android:layout_toRightOf="@id/battery" android:textAllCaps="true" />
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="@dimen/feature_horizontal_margin" android:layout_marginTop="@dimen/feature_vertical_margin_top" android:layout_marginRight="@dimen/feature_horizontal_margin" android:layout_marginBottom="10dp" android:layout_above="@id/action_connect"
+        <LinearLayout android:gravity="11" android:orientation="1" android:background="@color/backgroundColor" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2" style="@style/Widget_ListTitle">
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:layout_width="-1" android:layout_height="-2" android:text="@string/gls_section_data" style="@style/Widget_ListTitle" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:id="@id/unit" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4dp" android:layout_alignParentRight="true" style="@style/Widget_ListTitle" />
+            </RelativeLayout>
+            <ExpandableListView android:scrollbarStyle="2000000" android:id="0x102000a" android:layout_width="-1" android:layout_height="-1" />
+            <TextView android:gravity="11" android:id="0x1020004" android:layout_width="-2" android:layout_height="-1" android:text="@string/gls_no_data" />
+        </LinearLayout>
+        <LinearLayout android:gravity="1" android:orientation="1" android:background="@color/backgroundColor" android:layout_width="120dp" android:layout_height="-1" android:layout_marginLeft="15dp">
+            <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:layout_width="-1" android:layout_height="-2" android:text="@string/gls_section_actions" style="@style/Widget_ListTitle" />
+            <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/gls_control_std" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 101032e">
+                <Button android:id="@id/action_all" android:layout_width="-1" android:layout_height="-2" android:minWidth="0dp" android:text="@string/gls_action_all" style="?unknown_attr_ref: 101032f" />
+                <Button android:id="@id/action_last" android:layout_width="-1" android:layout_height="-2" android:minWidth="0dp" android:text="@string/gls_action_last" style="?unknown_attr_ref: 101032f" />
+                <Button android:id="@id/action_more" android:layout_width="-1" android:layout_height="-2" android:minWidth="0dp" android:text="@string/gls_action_more" style="?unknown_attr_ref: 101032f" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@id/gls_control_abort" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 101032e">
+                <Button android:id="@id/action_abort" android:layout_width="0dp" android:layout_height="-2" android:minWidth="0dp" android:text="@string/gls_action_abort" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/action_connect" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_vertical_margin_bottom" android:text="@string/action_connect" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onConnectClicked" style="@style/Widget_Connect" />
+</RelativeLayout>

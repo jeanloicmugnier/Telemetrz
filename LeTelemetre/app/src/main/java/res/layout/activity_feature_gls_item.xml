@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 1010387" android:paddingStart="?unknown_attr_ref: 101004e" android:paddingEnd="4dp">
+    <TextView android:textAppearance="?unknown_attr_ref: 101039e" android:id="@id/time" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textSize="12sp" android:id="@id/details" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" android:layout_below="@id/time" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:id="@id/gls_concentration" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

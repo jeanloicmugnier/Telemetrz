@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:padding="6dp" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 1010387">
+    <ImageView android:id="@id/rssi" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_rssi_bar" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14sp" android:textColor="#000000" android:id="@id/name" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="12sp" android:textColor="#000000" android:id="@id/address" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/name" />
+</RelativeLayout>

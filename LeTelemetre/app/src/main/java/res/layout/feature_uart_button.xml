@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:background="@drawable/uart_button_background" android:layout_width="80dp" android:layout_height="80dp" android:scaleType="5" />

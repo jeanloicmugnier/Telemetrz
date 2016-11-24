@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="8dp" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:id="@id/field" android:layout_width="0dp" android:layout_height="-2" android:hint="@string/uart_edit_command_hint" android:singleLine="true" android:layout_weight="1.0" />
+        <CheckBox android:id="@id/active" android:layout_width="-2" android:layout_height="-2" android:text="@string/uart_edit_active" />
+    </LinearLayout>
+    <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8dp" android:text="@string/uart_edit_select" />
+    <GridView android:id="@id/grid" android:layout_width="-1" android:layout_height="-2" android:horizontalSpacing="4dp" android:verticalSpacing="4dp" android:numColumns="5" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bpm_feature_title_long">BLOOD PRESSURE</string>
+    <string name="csc_feature_title_long">CYCLING SPEED &amp; CADENCE</string>
+    <string name="dfu_feature_title_long">DEVICE FIRMWARE UPDATE</string>
+    <string name="gls_feature_title_long">GLUCOSE MONITOR</string>
+    <string name="hrs_feature_title_long">HEART RATE MONITOR</string>
+    <string name="hts_feature_title_long">HEALTH THERMOMETER MONITOR</string>
+    <string name="rsc_feature_title_long">RUNNING SPEED &amp; CADENCE</string>
+</resources>

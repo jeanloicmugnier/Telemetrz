@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="32dp" android:textStyle="1" android:textColor="@color/darkGray" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/dfu_feature_title_long_margin" android:text="@string/dfu_feature_title_long" android:layout_centerVertical="true" android:rotation="270.0" />
+    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:textAppearance="?unknown_attr_ref: 1010040" android:ellipsize="3" android:id="@id/device_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="8dp" android:text="@string/dfu_default_name" android:maxLines="1" android:freezesText="true" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/feature_horizontal_margin" android:layout_marginTop="@dimen/feature_vertical_margin_top" android:layout_marginRight="@dimen/feature_horizontal_margin" android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        <LinearLayout android:gravity="1" android:orientation="1" android:background="@color/backgroundColor" android:layout_width="0dp" android:layout_height="160dp" android:layout_weight="1.0">
+            <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:layout_width="-1" android:layout_height="-2" android:text="@string/dfu_section_application_header" style="@style/Widget_ListTitle" />
+            <TableLayout android:padding="@dimen/feature_section_padding" android:layout_width="-1" android:layout_height="-2">
+                <TableRow android:layout_width="-1" android:layout_height="-2">
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dfu_file_name_label" />
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:id="@id/file_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:freezesText="true" />
+                </TableRow>
+                <TableRow android:layout_width="-1" android:layout_height="-2">
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dfu_file_type_label" />
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:id="@id/file_type" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:freezesText="true" />
+                </TableRow>
+                <TableRow android:layout_width="-1" android:layout_height="-2">
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dfu_file_size_label" />
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:id="@id/file_size" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:freezesText="true" />
+                </TableRow>
+                <TableRow android:layout_width="-1" android:layout_height="-2">
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dfu_file_status_label" />
+                    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:id="@id/file_status" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:text="@string/dfu_file_status_no_file" android:freezesText="true" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:gravity="10" android:orientation="0" android:paddingLeft="42dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="@dimen/feature_section_padding">
+                <Button android:id="@id/action_select_file" android:layout_width="-2" android:layout_height="-2" android:text="@string/dfu_action_select_file" android:onClick="onSelectFileClicked" />
+                <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:src="@drawable/ic_help" android:onClick="onSelectFileHelpClicked" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/dfu_pane" android:background="@color/backgroundColor" android:layout_width="0dp" android:layout_height="170dp" android:layout_marginLeft="15dp" android:layout_weight="1.0">
+            <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:layout_width="-1" android:layout_height="-2" android:text="@string/dfu_section_dfu_header" style="@style/Widget_ListTitle" />
+            <Button android:enabled="false" android:id="@id/action_upload" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/feature_section_padding" android:text="@string/dfu_action_upload" android:onClick="onUploadClicked" />
+            <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:id="@id/textviewUploading" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/feature_section_padding" android:text="@string/dfu_status_uploading" android:freezesText="true" />
+            <ProgressBar android:id="@id/progressbar_file" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:max="100" style="@*style/Widget.Holo.ProgressBar.Horizontal" />
+            <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:id="@id/textviewProgress" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/feature_section_padding" android:text="@string/dfu_uploading_percentage_label" android:freezesText="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/action_connect" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/activity_vertical_margin_bottom" android:text="@string/action_select" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onConnectClicked" style="@style/Widget_Connect" />
+</RelativeLayout>

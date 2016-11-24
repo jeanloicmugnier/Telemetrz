@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="featureTitleColor">#ff939597</color>
+    <color name="actionBarColor">#ff009cde</color>
+    <color name="backgroundColor">#ffe6e7e8</color>
+    <color name="orange">#ffdc582a</color>
+    <color name="dark_orange">#ff9e3f1e</color>
+    <color name="light_orange">#ffefb5a0</color>
+    <color name="headerBackgroundColor">#ff009ada</color>
+    <color name="headerBackgroundColorDark">#ff0081b7</color>
+    <color name="headerTextColor">#ffffffff</color>
+    <color name="dividerColor">#ffbbbdc0</color>
+    <color name="actionBarMenuTextColor">#ffffffff</color>
+    <color name="darkGray">#ffaaabaf</color>
+</resources>

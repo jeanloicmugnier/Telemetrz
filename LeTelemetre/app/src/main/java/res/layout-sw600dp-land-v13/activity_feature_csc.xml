@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="32.0dip" android:textStyle="bold" android:textColor="@color/darkGray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/csc_feature_title_long_margin" android:text="@string/csc_feature_title_long" android:layout_centerVertical="true" android:rotation="270.0" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/battery" android:background="@drawable/battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feature_horizontal_margin" android:layout_marginTop="8.0dip" android:text="@string/not_available" android:freezesText="true" android:layout_alignParentLeft="true" />
+    <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="end" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/csc_default_name" android:maxLines="1" android:freezesText="true" android:layout_toRightOf="@id/battery" android:textAllCaps="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feature_horizontal_margin" android:layout_marginTop="@dimen/feature_vertical_margin_top" android:layout_marginRight="@dimen/feature_horizontal_margin" android:layout_marginBottom="@dimen/activity_vertical_margin_bottom">
+        <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/csc_section_csc_header" style="@style/Widget.ListTitle" />
+        <TableLayout android:padding="@dimen/feature_section_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/csc_speed" android:layout_weight="1.0" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="36.0sp" android:gravity="right" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/not_available_value" android:freezesText="true" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="bottom" android:layout_width="45.0dip" android:layout_height="fill_parent" android:text="@string/csc_speed_unit" android:freezesText="true" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/csc_cadence" android:layout_weight="1.0" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="36.0sp" android:gravity="right" android:id="@id/cadence" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/not_available_value" android:freezesText="true" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="bottom" android:layout_width="45.0dip" android:layout_height="fill_parent" android:text="@string/csc_cadence_unit" android:freezesText="true" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/csc_distance" android:layout_weight="1.0" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="36.0sp" android:gravity="right" android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/not_available_value" android:freezesText="true" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="bottom" android:id="@id/distance_unit" android:layout_width="45.0dip" android:layout_height="fill_parent" android:text="@string/csc_distance_unit_m" android:freezesText="true" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/csc_total_distance" android:layout_weight="1.0" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="36.0sp" android:gravity="right" android:id="@id/distance_total" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/not_available_value" android:freezesText="true" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="bottom" android:layout_width="45.0dip" android:layout_height="fill_parent" android:text="@string/csc_total_distance_unit" android:freezesText="true" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetTextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/csc_gear_ratio" android:layout_weight="1.0" />
+                <no.nordicsemi.android.nrftoolbox.widget.TrebuchetBoldTextView android:textSize="36.0sp" android:gravity="right" android:id="@id/ratio" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="45.0dip" android:text="@string/not_available_value" android:freezesText="true" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <Button android:id="@id/action_connect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin_bottom" android:text="@string/action_connect" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onConnectClicked" style="@style/Widget.Connect" />
+</RelativeLayout>
